@@ -58,7 +58,7 @@ export default function Contact() {
           {/* Info */}
           <motion.div variants={stagger} initial="hidden" animate={leftInView ? 'visible' : 'hidden'}>
             <motion.div variants={fadeInLeft} style={{ marginBottom: '2rem' }}>
-              {[{ label: 'Email', value: 'tejassabbani@gmail.com', href: 'mailto:tejassabbani@gmail.com' }, { label: 'Location', value: 'India · Remote OK' }, { label: 'Status', value: 'Open to Work 🟢' }].map(({ label, value, href }) => (
+              {[{ label: 'Email', value: 'tejassabbani@gmail.com', href: 'mailto:tejassabbani@gmail.com' }, { label: 'Phone', value: '+91 8600267939' },{ label: 'Location', value: 'India · Remote OK' }, { label: 'Status', value: 'Open to Work 🟢' }].map(({ label, value, href }) => (
                 <div key={label} style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '0.75rem', padding: '0.9rem 1rem', background: 'rgba(22,22,31,0.6)', border: '1px solid #1E1E2E', borderRadius: '12px', backdropFilter: 'blur(8px)' }}>
                   <span style={{ fontSize: '0.7rem', fontWeight: 700, letterSpacing: '0.1em', color: '#2563EB', fontFamily: 'Inter, sans-serif', textTransform: 'uppercase', minWidth: '65px' }}>{label}</span>
                   <span style={{ width: '1px', height: '14px', background: '#1E1E2E', flexShrink: 0 }} />

@@ -42,7 +42,7 @@ function ProjectCard({ project, index, isMobile }) {
             </div>
           </div>
           <div style={{ display: 'flex', gap: '0.4rem', flexShrink: 0 }}>
-            {[{ icon: FiGithub, href: project.github }, { icon: FiExternalLink, href: project.demo }].map(({ icon: Icon, href }, i) => (
+            {[{ icon: FiGithub, href: project.github,}, { icon: FiExternalLink, href: "https://codesage-nexus-1.onrender.com/"}].map(({ icon: Icon, href }, i) => (
               <a key={i} href={href} style={{ width: '30px', height: '30px', borderRadius: '8px', border: '1px solid #1E1E2E', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#475569', textDecoration: 'none', transition: 'all 0.2s' }} onMouseEnter={e => e.currentTarget.style.color='#F8FAFC'} onMouseLeave={e => e.currentTarget.style.color='#475569'}><Icon size={13} /></a>
             ))}
           </div>

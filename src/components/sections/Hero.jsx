@@ -116,9 +116,9 @@ function AnimatedName({ name }) {
 }
 
 const socialLinks = [
-  { icon: FiGithub,   href: 'https://github.com/',  label: 'GitHub'   },
-  { icon: FiLinkedin, href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { icon: FiMail,     href: 'mailto:you@email.com',  label: 'Email'    },
+  { icon: FiGithub,   href: 'https://github.com/tejassabbani20',  label: 'GitHub'   },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/tejas-sabbani-5109a62b1/', label: 'LinkedIn' },
+  { icon: FiMail,     href: 'https://mailto:tejassabbani20@gmail.com',  label: 'Email'    },
 ]
 const roles = ['Data Analyst', 'ML Engineer', 'BI Developer', 'Python Developer', 'Data Scientist']
 
@@ -252,6 +252,7 @@ export default function Hero() {
             View My Work →
           </motion.a>
 
+
           <motion.a href="/Tejas_Sabbani_Resume.pdf" download whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.97 }}
             style={{
               padding: isMobile ? '0.75rem 1.5rem' : '0.9rem 2.2rem',
@@ -266,6 +267,18 @@ export default function Hero() {
             Download Resume
           </motion.a>
 
+          
+           <motion.a href="#contact" whileHover={{ scale: 1.06, boxShadow: '0 0 40px rgba(14, 52, 37, 0.5)' }} whileTap={{ scale: 0.97 }}
+            style={{
+              padding: isMobile ? '0.75rem 1.5rem' : '0.9rem 2.2rem',
+              borderRadius: '12px', background: 'linear-gradient(135deg, #2563EB, #1D4ED8)',
+              color: '#fff', fontFamily: 'Inter, sans-serif',
+              fontSize: isMobile ? '0.85rem' : '0.95rem', fontWeight: 600, textDecoration: 'none',
+              boxShadow: '0 0 20px rgba(37,99,235,0.3)', border: '1px solid rgba(255,255,255,0.1)',
+            }}>
+            Contact Me →
+          </motion.a>
+
           <motion.a href="#experience" whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.97 }}
             style={{
               padding: isMobile ? '0.75rem 1.5rem' : '0.9rem 2.2rem',
@@ -277,7 +290,7 @@ export default function Hero() {
             }}
             onMouseEnter={e => { e.currentTarget.style.borderColor = '#F97316'; e.currentTarget.style.background = 'rgba(249,115,22,0.15)'; e.currentTarget.style.color = '#FDBA74' }}
             onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(249,115,22,0.3)'; e.currentTarget.style.background = 'rgba(249,115,22,0.08)'; e.currentTarget.style.color = '#FB923C' }}>
-            My Experience ↓
+            My Work Experience ↓
           </motion.a>
         </motion.div>
 
