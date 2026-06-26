@@ -101,7 +101,8 @@ export default function Navbar() {
         </ul>
 
         <motion.a
-          href="/resume.pdf"
+          href="/Tejas_Sabbani_Resume.pdf"
+          download
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.05 }}
