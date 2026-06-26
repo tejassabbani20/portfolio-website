@@ -214,9 +214,9 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.6, duration: 0.6 }}
           style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem', flexWrap: 'wrap' }}>
           {[
-            { value: '10+', label: 'Projects Built' },
-            { value: '5+',  label: 'Tech Stacks'    },
-            { value: '3+',  label: 'Certifications' },
+            { value: '4+', label: 'Projects Built' },
+            { value: '3+',  label: 'Tech Stacks'    },
+            { value: '2+',  label: 'Certifications' },
           ].map((stat, i) => (
             <div key={i} style={{
               padding: isMobile ? '0.75rem 1.25rem' : '0.75rem 2rem',
