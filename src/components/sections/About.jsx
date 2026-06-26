@@ -66,7 +66,7 @@ export default function About() {
               I've worked on projects involving predictive modeling, data visualization, and building end-to-end analytics pipelines.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-              {[{ label: 'Location', value: 'India' }, { label: 'Education', value: 'B.Eng.' }, { label: 'Focus', value: 'Data & ML Engineering' }, { label: 'Status', value: 'Open to Work 🟢' }].map(({ label, value }) => (
+              {[{ label: 'Location', value: 'India' }, { label: 'Education', value: 'B.Eng. in Ai&Data Science' }, { label: 'Focus', value: 'Data & ML Engineering' }, { label: 'Status', value: 'Open to Work 🟢' }].map(({ label, value }) => (
                 <div key={label} style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                   <span style={{ fontSize: '0.75rem', fontFamily: 'JetBrains Mono, monospace', color: '#2563EB', fontWeight: 600, minWidth: '90px', letterSpacing: '0.05em' }}>{label}</span>
                   <span style={{ width: '1px', height: '14px', background: '#1E1E2E', flexShrink: 0 }} />
@@ -85,7 +85,7 @@ export default function About() {
                 <div style={{ width: '80px', height: '80px', borderRadius: '50%', background: 'linear-gradient(135deg, #2563EB, #6366F1)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '2rem', fontWeight: 700, color: '#fff', fontFamily: 'Inter, sans-serif', marginBottom: '1.25rem', boxShadow: '0 0 30px rgba(37,99,235,0.3)' }}>TS</div>
                 <h4 style={{ fontSize: '1.2rem', fontWeight: 700, color: '#F8FAFC', fontFamily: 'Inter, sans-serif', marginBottom: '0.25rem' }}>Tejas Sabbani</h4>
                 <p style={{ fontSize: '0.85rem', color: '#2563EB', fontFamily: 'Inter, sans-serif', marginBottom: '1.5rem', fontWeight: 500 }}>Data Analyst & ML Engineer</p>
-                {[{ skill: 'Python & ML', pct: 85 }, { skill: 'Data Analytics', pct: 90 }, { skill: 'SQL & Databases', pct: 80 }, { skill: 'Data Viz & BI', pct: 85 }].map(({ skill, pct }) => (
+                {[{ skill: 'Java,Python & ML', pct: 95 }, { skill: 'Data Analytics', pct: 80 }, { skill: 'SQL & Databases', pct: 90 }, { skill: 'Data Viz & BI', pct: 80 }].map(({ skill, pct }) => (
                   <div key={skill} style={{ marginBottom: '1rem' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.35rem' }}>
                       <span style={{ fontSize: '0.8rem', color: '#94A3B8', fontFamily: 'Inter, sans-serif' }}>{skill}</span>
