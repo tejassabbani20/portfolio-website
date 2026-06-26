@@ -117,7 +117,7 @@ function AnimatedName({ name }) {
 
 const socialLinks = [
   { icon: FiGithub,   href: 'https://github.com/tejassabbani20',  label: 'GitHub'   },
-  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/sakshi-sanas-ba29102a6/', label: 'LinkedIn' },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/tejas-sabbani-5109a62b1', label: 'LinkedIn' },
   { icon: FiMail,     href: 'https://mailto:tejassabbani20@gmail.com',  label: 'Email'    },
 ]
 const roles = ['Data Analyst', 'ML Engineer', 'BI Developer', 'Python Developer', 'Data Scientist']
