@@ -26,7 +26,7 @@ const EXPERIENCE = [{
   supervisor: 'Mr. Prashant Bhangare', mentor: 'Ms. Nidhi Singh',
 }]
 
-const EDUCATION = [{ degree: 'Bachelor of Engineering', field: 'Computer Science — AI & DS Specialization', institution: 'Thakur College of Engineering, Maharashtra', period: 'May 2020 – 2024', grade: '7.64 CGPA', icon: '🎓', color: '#2563EB' }]
+const EDUCATION = [{ degree: 'Bachelor of Engineering', field: 'Artificial Intelligence & Data Science', institution: 'Datta Meghe College of Engineering,Airoli', period: 'May 2022 – 2026', grade: '6.26 CGPA', icon: '🎓', color: '#2563EB' }]
 
 const CERTIFICATIONS = [
   { name: 'Machine Learning A–Z',         issuer: 'Udemy',               icon: '🤖', color: '#8B5CF6' },
