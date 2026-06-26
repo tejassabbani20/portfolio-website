@@ -214,7 +214,7 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.6, duration: 0.6 }}
           style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem', flexWrap: 'wrap' }}>
           {[
-            { value: '4+', label: 'Projects Built' },
+            { value: '6+', label: 'Projects Built' },
             { value: '3+',  label: 'Tech Stacks'    },
             { value: '2+',  label: 'Certifications' },
           ].map((stat, i) => (
@@ -252,7 +252,7 @@ export default function Hero() {
             View My Work →
           </motion.a>
 
-          <motion.a href="/resume.pdf" target="_blank" whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.97 }}
+          <motion.a href="/Tejas_Sabbani_Resume.pdf" download whileHover={{ scale: 1.06 }} whileTap={{ scale: 0.97 }}
             style={{
               padding: isMobile ? '0.75rem 1.5rem' : '0.9rem 2.2rem',
               borderRadius: '12px', background: 'rgba(255,255,255,0.03)',
